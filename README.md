@@ -16,15 +16,21 @@ my solution of baekjoon
 # After setting
 
 - git pull
-- git branch develop/question number
-- git checkout develop/question number
+- git branch solution/question number
+- git checkout solution/question number
 - go run main.go
 - git add .
 - git commit -m "."
-- git push origin develop/question number
+- git push origin solution/question number
 
 # commit error
 
-git log --oneline
-git revert "CommitID"
-git push -f origin develop
+- git log --oneline
+- git revert "CommitID"
+- git push -f origin develop
+
+# how to run code
+- c : 우상단 버튼
+- go : go run path
+- python : python path
+- kotlin : kotlinc path
