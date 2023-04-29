@@ -5,7 +5,6 @@ my solution of baekjoon
 
 # First git setting
 
-
 - git pull
 - git branch develop
 - git checkout develop
@@ -23,3 +22,9 @@ my solution of baekjoon
 - git add .
 - git commit -m "."
 - git push origin develop/question number
+
+# commit error
+
+git log --oneline
+git revert "CommitID"
+git push -f origin develop
