@@ -1,5 +1,8 @@
+
 # Created by https://www.toptal.com/developers/gitignore/api/c,python,dart,go,flutter,kotlin,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=c,python,dart,go,flutter,kotlin,visualstudiocode
+
+
 
 ### C ###
 # Prerequisites
@@ -55,6 +58,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+
 ### Dart ###
 # See https://www.dartlang.org/guides/libraries/private-files
 
@@ -94,6 +98,19 @@ doc/api/
 .fvm/flutter_sdk
 .pub-cache/
 .pub/
+
+### Flutter ###
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.fvm/flutter_sdk
+.packages
+.pub-cache/
+.pub/
+build/
+
 coverage/
 lib/generated_plugin_registrant.dart
 # For library packages, don’t commit the pubspec.lock file.
@@ -378,4 +395,8 @@ pyrightconfig.json
 .history
 .ionide
 
+
 # End of https://www.toptal.com/developers/gitignore/api/c,python,dart,go,flutter,kotlin,visualstudiocode
+
+# End of https://www.toptal.com/developers/gitignore/api/c,python,visualstudiocode,flutter,go,kotlin
+
