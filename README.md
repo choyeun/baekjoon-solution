@@ -1,9 +1,10 @@
 # baekjoon
+
 my solution of baekjoon
 
-# git
+## git
 
-# First git setting
+## First git setting
 
 - git pull
 - git branch develop
@@ -13,7 +14,7 @@ my solution of baekjoon
 - git commit -m "."
 - git push origin develop
 
-# After setting
+## After setting
 
 - git pull
 - git branch solution/question number
@@ -23,13 +24,14 @@ my solution of baekjoon
 - git commit -m "."
 - git push origin solution/question number
 
-# commit error
+## commit error
 
 - git log --oneline
 - git revert "CommitID"
 - git push -f origin develop
 
-# how to run code
+## how to run code
+
 - c : 우상단 버튼
 - go : go run path
 - python : python path
