@@ -30,3 +30,5 @@ if __name__ == "__main__":
     else:
         filename = sys.argv[1]
         compile_and_run(filename)
+        remove_script = "remove_exe.py"
+        subprocess.run(f"python \"{remove_script}\"", shell=True)
