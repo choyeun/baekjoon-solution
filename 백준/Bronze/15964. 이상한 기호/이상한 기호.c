@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int a, b = 0;
-    scanf("%d %d", &a, &b);
-    printf("%d", (a+b)*(a-b));
+    long long a, b = 0;
+    scanf("%lld %lld", &a, &b);
+    printf("%lld", (a+b)*(a-b));
 }
